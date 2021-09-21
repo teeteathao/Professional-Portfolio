@@ -110,17 +110,53 @@
 #work{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 5px;
 }
 
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-sizing:border-box;
 }
 
 .gallery img{
-    width: 400px;
+    width: 360px;
     height: 240px;
     margin: 10px;
+}
+
+/* Contact Me Section */
+#contact-me{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 3px solid thistle ;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 15px;
+    background: linear-gradient(to top, thistle 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all;
+}
+
+.box:hover{
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px thistle;
 }
