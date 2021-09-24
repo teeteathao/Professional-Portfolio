@@ -42,41 +42,8 @@
 #home {
     display: flex;
     flex-direction: column;
-    background-color: thistle;
     background: url('https://cdn-ssl.s7.disneystore.com/is/image/ShopDisney/mb_character-edna-mode_launch_2x?fit=constrain&cropN=0,0,1,1&fmt=jpeg&qlt=90&wid=1200') no-repeat center/cover;
-    justify-content: center;
-    align-items: center;
-
 }
-
-.main-text{
-    font-family: var(--font-style);
-    font-size: 72px;
-    margin: 40px 0px;
-}
-
-/* #home::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: url('https://i.ibb.co/CBhtg8t/Wallpaper.jpg') no-repeat center/cover;
-    height: 800px;
-    width: 100%;
-    z-index: -1;
-    opacity: .7; 
-    
-} */
-
-
-/* .main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 30%;
-    right:27%;
-} */
 
 .headings{
     font-family: var(--font-style);
@@ -96,18 +63,19 @@
 #about-me{
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
+    align-items: center;
     padding: 20px;
     margin-bottom: 50px;
 }
 
 #pic{
     display: flex;
+    align-items: center;
 }
 
 #pic img{
-    width: 575px;
-    height: 400px;
+    width: 40%;
+    height: 40%;
 }
 
 #intro{
@@ -144,6 +112,11 @@
     margin: 10px;
 }
 
+#image1{
+    width: 71vw;
+}
+
+
 /* Contact Me Section */
 #contact-me{
     display: flex;
@@ -161,7 +134,7 @@
     flex-direction: column;
     width: 170px;
     height: 200px;
-    border: 3px solid darkslateblue ;
+    border: 3px solid darkslateblue;
     margin: 10px;
     align-items: center;
     text-align: justify;
@@ -173,8 +146,18 @@
 
 .box:hover{
     background-position: left bottom;
-    color: black;
+    color: white;
     border: none;
     box-shadow: 0 0 20px rgb(167, 44, 167) 50%;
 }
 
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+    .navbar {
+      background-color: lightblue;
+    }
+    #pic {
+       width: 50%; 
+       display: none
+    }
+  }
