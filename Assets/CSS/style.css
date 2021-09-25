@@ -154,10 +154,44 @@
 /* Mobile View */
 @media only screen and (max-width: 600px) {
     .navbar {
-      background-color: lightblue;
+      background-color: rgb(186, 224, 236);
     }
     #pic {
-       width: 50%; 
-       display: none
+       width: 80%; 
+    }
+
+    .row{
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      background-color: rgb(170, 96, 106);
+    }
+    #pic {
+       width: 75%; 
+    }
+
+    .row{
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 376px) {
+    .navbar {
+        background-color: darkgrey;
+    }
+
+    .navbar ul li{
+        flex-wrap: wrap;
+    }
+    
+    #pic {
+       width: 75%; 
+    }
+
+    .row{
+        width: 75%;
     }
   }
