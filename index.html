@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets2/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>TN's Portfolio</title>
 </head>
 
@@ -26,13 +27,13 @@
             <h1 class="headings"><br>Hi,<br>I am<br> Thao<br>Nguyen</h1>
         </div>
     </section>
-
+    <div class="parallax"></div>
+    
     <!-- About Me Section -->
     <section id="about-me">
         <h1 class="headings">About</h1>
         <div id="pic">
-            <img src="https://i.postimg.cc/Zqsp0p8v/Avatar.jpg"
-                alt="woman-photo">
+            <img src="https://i.postimg.cc/Zqsp0p8v/Avatar.jpg" alt="woman-photo">
             <div id="intro">
                 <h2> Thao Nguyen</h2>
                 <p>I am a future front-end developer. I am looking forwared to designing and creating digital experiences. <br> My online
@@ -40,20 +41,24 @@
             </div>
         </div>
     </section>
+    <div class="parallax"></div>
 
     <!-- My Work Section -->
     <section id="work">
         <h1 class="headings">Portfolio</h1>
         <div class="gallery">
-            <a href="https://amdiebolt.github.io/trip-planner/"><img id="image1"
+            <a href="https://amdiebolt.github.io/trip-planner/" data-aos="zoom-in-up" data-aos-duration="4000" ><img id="image1"
                     src="https://i.postimg.cc/nzXjyCYm/front.png" alt="Project-1"></a>
-            <a href="https://teeteathao.github.io/password--generator/">
-                <img id="image2" src="https://i.postimg.cc/tCDsmQNT/PWgenerator1.jpg" alt="Password-Generator">
+            <a href="https://teeteathao.github.io/password--generator/" data-aos="zoom-in-up" data-aos-duration="5000" > 
+                <img id="image2" src="https://i.postimg.cc/rpZM9g75/Password.png" alt="Password-Generator">
             </a>
-            <a href="https://teeteathao.github.io/API-Scheduler/"><img id="image3" src="https://i.postimg.cc/v8h8G7g2/Calendar.png"
+            <a href="https://teeteathao.github.io/API-Scheduler/" data-aos="zoom-in-up" data-aos-duration="6000" ><img id="image3" src="https://i.postimg.cc/v8h8G7g2/Calendar.png"
                     alt="Calendar"></a>
+             <a href="https://infinite-ravine-51041.herokuapp.com/" data-aos="zoom-in-up" data-aos-duration="7000" ><img id="image3" src="https://i.postimg.cc/XYGh6HHh/Main.pngg"
+                      alt="Dating Website"></a>
         </div>
     </section>
+    <div class="parallax"></div>
 
     <!-- Contact Me Section -->
     <section id="contact-me">
@@ -65,7 +70,7 @@
             </div>
             <div class="box">
                 <h1 class="heading-contact">E-Mail</h1>
-                <p><a href="mailto:webmaster@example.com"><img
+                <p><a href="mailto: teeteathao@gmail.com"><img
                             src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-email-multimedia-kiranshastry-lineal-kiranshastry-1.png"
                             alt="E-Mail"> </a></p>
             </div>
@@ -77,7 +82,11 @@
         </div>
     </section>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      <div class="parallax"></div>
 </body>
 
 </html>
