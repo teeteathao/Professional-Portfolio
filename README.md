@@ -14,7 +14,7 @@ The contact section provide information to call, email, and Github.
 
 The following image shows the web application's appearance and functionality:
 
-[![screenshot-teeteathao-github-io-2021-09-25-14-43-00.jpg](https://i.postimg.cc/7PKCHhWC/screenshot-teeteathao-github-io-2021-09-25-14-43-00.jpg)](https://postimg.cc/hh74MDgg)
+[![Page.png](https://i.postimg.cc/0jPZBFWb/Page.png)](https://postimg.cc/TLNry7X6)
 
 ### Deployment:
 https://teeteathao.github.io/professional-portfolio/
